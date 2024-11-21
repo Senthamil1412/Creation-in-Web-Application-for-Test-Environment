@@ -1,26 +1,46 @@
- # CREATION IN WEB APPLICATION FOR TEST ENVIRONMENT
-  ## AIM
-       To Creation in Web Application for Test Environment.
+[# EX-06 CREATION IN WEB APPLICATION FOR TEST ENVIRONMENT
+## AIM
+  To Creation in Web Application for Test Environment.
 ## PROBLEM STATEMENT
-    Explain about the Experiment.
+  Explain about the Experiment.
 
 ## ALGORITHM
- ### Steps 1:
- ### Steps 2:
- ### Steps 3:
- ### Steps 4:
- ### Steps 5:
-## COMMANDS
-Include the commands used in the Experiment.
+Launch an EC2 instance in AWS using an Amazon Linux 2 AMI with a Security Group allowing HTTP and SSH traffic.
 
+Steps 2:
+Connect to the instance using SSH and install a web server like Apache
+
+Steps 3:
+Create a simple HTML file in the server's default directory with basic content for testing.
+
+Steps 4:
+Access the instance's public IP in a browser to verify the HTML page is displayed.
+## COMMANDS
+To install httpd:
+```
+yum install httpd -y
+```
+To enable and start httpd :
+```
+systemctl enable httpd
+systemctl start httpd
+```
+
+### REG NUMBER: 212222230139
+### NAME: Senthamil Selvan G
 ## OUTPUT
-### REG NUMBER:
-### NAME:
- 
- Include your Screenshots Here.
+Terminal:
+
+![image](https://github.com/user-attachments/assets/99912383-5d3b-40f5-b2bc-a799c6274cb3)
+Website:
+
+![image](https://github.com/user-attachments/assets/1fc1cf5c-63b9-47c3-bfc9-abbcfd12fec3)
+
+
 ## RESULT
- 
+ Thus the web application for test environment has successfully been created and executed.
 
   
 
 
+](https://github.com/Senthamil1412/Relational-Database-Service-Creation-in-Amazon/tree/main)
